@@ -7,10 +7,33 @@ const HeaderComponent = () => {
     return (
 
         <section className = "section_header">
+
+
+
+
             <div className = "menu_header">
-             
+                <nav className="menu">
+                    <ul className="menu_list">
+                        <li className="menu_list_item">
+                            <a className="menu_list_link" href="#home"> Home </a>
+                        </li>
+                        <li className="menu_list_item">
+                            <a className="menu_list_link" href="#about"> Sobre nós </a>
+                        </li>
+                        <li className="menu_list_item">
+                            <a className="menu_list_link" href="#whoDoes"> Soluções </a>
+                        </li>
+                        <li className="menu_list_item">
+                            <a className="menu_list_link" href="#impactedWomen"> Contato </a>
+                        </li>
+                    </ul>
+                </nav>      
     
             </div>
+
+
+
+
             <div className = "teste_header">
                 <div className = "hero_header">
                     <h1 className = "titulo_header">Zawee</h1>
