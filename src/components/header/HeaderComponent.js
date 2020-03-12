@@ -1,12 +1,16 @@
 
 import './headerComponent.css';
 import React from 'react';
+import {icone} from '../../assets/imgs/icone_play.png'
 
 const HeaderComponent = () => {
     return (
 
         <section className = "section_header">
-            <div className = "menu_header"></div>
+            <div className = "menu_header">
+             
+    
+            </div>
             <div className = "teste_header">
                 <div className = "hero_header">
                     <h1 className = "titulo_header">Zawee</h1>
@@ -15,7 +19,7 @@ const HeaderComponent = () => {
                 <div className="link_hero" href="a">
                     <p className="scroll_down"> Scroll Down </p>
                     <a className="ancora_hero" href="a">
-                        <img className="icone_hero"   />
+                        <img className="icone_hero" src={icone} alt="teste" />
                     </a>
                 </div>
             </div>
