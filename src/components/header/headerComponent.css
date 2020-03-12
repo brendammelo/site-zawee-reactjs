@@ -5,17 +5,47 @@
 }
 
 .menu_header{
+    border: 4px solid white;
+
     height: 10vh;
     border: 2px solid black;
 
 }
 
 .titulo_header{
+    border: 4px solid white;
+
     color: white;
     font-size: 100px;
+    width: 300px;
 }
 
 .legenda_header{
+    border: 4px solid white;
+
     color: white;
     font-weight: normal;
+    width: 400px;
+    margin-top: -50px;
+}
+
+.teste_header{
+    border: 4px solid white;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.hero_header{
+    border: 4px solid white;
+
+    margin: 0px 130px;
+}
+
+.scroll_down{
+    border: 4px solid white;
+    width: 75px;
+    margin: auto;
+    color: white;
+    font-size: 14px;
 }
