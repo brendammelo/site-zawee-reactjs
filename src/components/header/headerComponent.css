@@ -12,6 +12,21 @@
 
 }
 
+
+@media (max-width:600px){
+
+    .legenda_header{
+        width: 300px;
+
+    }
+
+    .hero_header{
+        border: 4px solid black;
+        margin: 200px 130px;
+
+    }
+}
+
 .titulo_header{
     border: 4px solid white;
 
@@ -66,12 +81,12 @@
 
 
 
-
 .menu_list {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
+
 
   
   .menu_list_link {
@@ -82,9 +97,11 @@
     font-weight: 300;
     text-align: center;
     font-size: 14px;
+    padding: 0px 30px;
   }
   .menu_list_link:hover {
     font-weight: 400;
     border-bottom: 2px solid #03b6fd;
   }
+  
   
