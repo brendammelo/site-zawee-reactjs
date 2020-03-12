@@ -1,10 +1,21 @@
 .section_header{
     height: 100vh;
     border: 2px solid black;
+    background: linear-gradient(to right, #0acfe0, #495ff4);
 }
 
 .menu_header{
     height: 10vh;
     border: 2px solid black;
 
+}
+
+.titulo_header{
+    color: white;
+    font-size: 100px;
+}
+
+.legenda_header{
+    color: white;
+    font-weight: normal;
 }
