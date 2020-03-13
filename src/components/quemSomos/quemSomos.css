@@ -27,7 +27,7 @@
 }
 
 .texto{
-    height: 400px;
+    height: 250px;
     width: 750px;
 }
 
@@ -38,4 +38,22 @@
 
 .imagem{
     margin-left: 10%;
+    height: 250px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button > button{
+    height: 50px;
+    width: 180px;
+    border-radius: 9px;
+    background-color: #465efe;
+    color: white;
+    font-size: 1em;
+    box-shadow: 1px 1px 5px grey;
+    border-style: none;
 }

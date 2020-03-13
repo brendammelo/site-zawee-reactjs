@@ -14,11 +14,13 @@ const QuemSomos = () => {
                     <img className="icone_quemSomos" 
                         src={imgQuemSomos} 
                         alt="desenvolvimento multi plataforma"
-                        height="50%"
+                        height="80%"
                     />
                 </div>
             </div>
-            <div className="button"></div>
+            <div className="button">
+                <button>Contate-nos</button>
+            </div>
         </div>
     )
 }
