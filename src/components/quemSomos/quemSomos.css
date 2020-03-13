@@ -11,3 +11,31 @@
     margin: 0;
     padding-top: 2vh;
 }
+
+.content{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.texto > h3{
+    font-size: 1.5em;
+    padding-top: 5%;
+    
+    padding-left: 17%;
+    color: #585858;
+}
+
+.texto{
+    height: 400px;
+    width: 750px;
+}
+
+.icone_quemSomos {
+    padding-right: 20%;
+    
+}
+
+.imagem{
+    margin-left: 10%;
+}
