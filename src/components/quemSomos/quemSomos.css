@@ -1,0 +1,13 @@
+.container {
+    height: 70vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    background-color: #f6f6f6;
+}
+
+.title > h2{
+    font-size: 2em;
+    color: #585858;
+    margin: 0;
+    padding-top: 2vh;
+}
