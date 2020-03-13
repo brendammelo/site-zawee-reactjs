@@ -36,7 +36,7 @@ const HeaderComponent = () => {
 
             <div className = "teste_header">
                 <div className = "hero_header">
-                    <h1 className = "titulo_header">Zawee</h1>
+                    <h1 className = "titulo_header">Zawee oi</h1>
                     <h2 className = "legenda_header">Soluções digitais para o seu negócio</h2>
                 </div>
                 <div className="link_hero" href="a">
