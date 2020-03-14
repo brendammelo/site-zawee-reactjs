@@ -68,6 +68,7 @@
 .icone_hero{
     width: 60px;
     height: 60px;
+    cursor: pointer;
 }
 
 .link_hero{
@@ -103,5 +104,4 @@
     font-weight: 400;
     border-bottom: 2px solid #03b6fd;
   }
-  
   
