@@ -8,7 +8,7 @@ class SolutionsComponent extends Component {
         return (
             <div className="container-solutions" style={{backgroundImage: `url(${img})`}}>
                 
-                <div className="container-cover" >
+                
                 <h2>Nossas Soluções</h2>
                     <div className="container-box">
                         
@@ -19,7 +19,7 @@ class SolutionsComponent extends Component {
                         </div>
                         </div>
                 
-                        </div>
+                        
             </div>
 
 
