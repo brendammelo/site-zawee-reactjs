@@ -1,9 +1,13 @@
-
 import './headerComponent.css';
-import React from 'react';
-import {icone} from '../../assets/imgs/icone_play.png'
+import React, { Component } from 'react';
+import icone from '../../assets/imgs/icone_play.png';
 
-const HeaderComponent = () => {
+import { Link, animateScroll as scroll } from "react-scroll";
+
+
+class HeaderComponent extends Component {
+render ()  {
+    
     return (
 
         <section className = "section_header">
@@ -39,10 +43,20 @@ const HeaderComponent = () => {
                     <h1 className = "titulo_header">Zawee</h1>
                     <h2 className = "legenda_header">Soluções digitais para o seu negócio</h2>
                 </div>
-                <div className="link_hero" href="a">
+                
+                <div className="link_hero">
                     <p className="scroll_down"> Scroll Down </p>
-                    <a className="ancora_hero" href="a">
-                        <img className="icone_hero" src={icone} alt="teste" />
+                    <a className="ancora_hero" >
+                        <Link
+                            activeClass="active"
+                            to="o-que-fazemos-container"
+                            spy={true}
+                            smooth={true}
+                            offset={95}
+                            duration={500}
+                        >
+                        <img className="icone_hero"  src={icone} alt="teste" />
+                        </Link>
                     </a>
                 </div>
             </div>
@@ -50,10 +64,11 @@ const HeaderComponent = () => {
 
 
 
-    )
+    );
 }
 
+}
 
-export default HeaderComponent
+export default HeaderComponent;
 
 
