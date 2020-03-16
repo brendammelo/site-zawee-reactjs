@@ -10,7 +10,7 @@ const QuemSomos = () => {
                 <div className="texto_quem_somos"><h3>Somos um grupo de alunos da UFRPE, 
                                     buscando mudar a forma como pequenas e 
                                     médias empresas, são vistas online</h3></div>
-                <div className="imagem"> 
+                <div className="imagem_quem_somos"> 
                     <img className="icone_quemSomos" 
                         src={imgQuemSomos} 
                         alt="desenvolvimento multi plataforma"
