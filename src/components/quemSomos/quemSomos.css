@@ -5,7 +5,7 @@
     background-color: #f6f6f6;
 }
 
-.title > h2{
+.title_quem_somos{
     font-size: 2em;
     color: #585858;
     margin: 0;
@@ -21,7 +21,7 @@
 
 }
 
-.texto > h3{
+.texto_quem_somos{
     font-size: 1.5em;
     padding-top: 5%;
     
@@ -29,7 +29,7 @@
     color: #585858;
 }
 
-.texto{
+.texto_quem_somos{
     height: 250px;
     width: 750px;
 }
@@ -39,7 +39,7 @@
     
 }
 
-.imagem{
+.imagem_quem_somos{
     margin-left: 10%;
     height: 250px;
 }
