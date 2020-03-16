@@ -12,14 +12,22 @@ render ()  {
             <div className="container-box" >
                 
                 <h2 className="title_solucoes">Nossas Soluções</h2>
-                <div className="container-solutions"></div>
+                <div className="container-solutions">
     
-                    <div className="container-inner-solutions">
-                        <div className="img-1"></div>
-                        <div className="img-2"></div>
-                        <div className="img-3"></div>
-                    </div>
+                        <div className="box_solucoes1">
+                            <img></img>
+                            <p className="texto_solucoes1"></p>
+                        </div>
+                        <div className="img-box_solucoes2">
+                            <img></img>
+                            <p className="texto_solucoes1"></p>
+                        </div>
+                        <div className="box_solucoes3">
+                            <img></img>
+                            <p className="texto_solucoes1"></p>
+                        </div>
                 </div>
+            </div>
         </section>
                 
 
