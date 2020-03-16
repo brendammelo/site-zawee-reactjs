@@ -1,0 +1,63 @@
+.o-que-fazemos-container {
+    height: 100vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    background-color: #f6f6f6;
+}
+
+.title_quem_somos{
+    font-size: 2em;
+    color: #585858;
+    margin: 0;
+    padding-top: 5vh;
+    padding-left: 8%;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh;
+
+}
+
+.texto_quem_somos{
+    font-size: 1.5em;
+    padding-top: 5%;
+    
+    padding-left: 17%;
+    color: #585858;
+}
+
+.texto_quem_somos{
+    height: 250px;
+    width: 750px;
+}
+
+.icone_quemSomos {
+    padding-right: 20%;
+    
+}
+
+.imagem_quem_somos{
+    margin-left: 10%;
+    height: 250px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button > button{
+    height: 50px;
+    width: 180px;
+    border-radius: 9px;
+    background-color: #465efe;
+    color: white;
+    font-size: 1em;
+    box-shadow: 1px 1px 5px grey;
+    border-style: none;
+    cursor: pointer;
+}
