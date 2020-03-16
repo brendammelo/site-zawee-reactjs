@@ -52,7 +52,7 @@ render ()  {
                             to="o-que-fazemos-container"
                             spy={true}
                             smooth={true}
-                            offset={95}
+                            offset={1}
                             duration={500}
                         >
                         <img className="icone_hero"  src={icone} alt="teste" />

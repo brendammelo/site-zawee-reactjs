@@ -67,7 +67,7 @@
     border: 2px solid yellow;
     display: flex;
     flex-direction: column;
-    justify-content: ;
+    
     
     /*margin-top: 20vh;
     margin-left: 15vw;*/
@@ -81,4 +81,31 @@
     background-color: whitesmoke;
     border-radius: 10px;
     margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.box_solucoes1 {
+    margin-top: 15vh;
+    margin-left: 5vw;
+}
+
+.box_solucoes2 {
+    margin-top: 15vh;
+    
+}
+
+.box_solucoes3 {
+    margin-top: 15vh;
+    margin-right: 5vw;
+}
+
+.texto_solucoes1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #707070; opacity: 90%;
+    text-align: center;
+    
 }
