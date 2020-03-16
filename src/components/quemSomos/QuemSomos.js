@@ -5,11 +5,11 @@ import imgQuemSomos from '../../assets/icons/quem-somos.png';
 const QuemSomos = () => {
     return (
         <div className="o-que-fazemos-container">
-            <div className="title_quem_somos"><h2>Quem é a Zawee</h2></div>
+            <h2 className="title_quem_somos">Quem é a Zawee</h2>
             <div className="content" id="to-scroll">
-                <div className="texto_quem_somos"><h3>Somos um grupo de alunos da UFRPE, 
+                <h3 className="texto_quem_somos">Somos um grupo de alunos da UFRPE, 
                                     buscando mudar a forma como pequenas e 
-                                    médias empresas, são vistas online</h3></div>
+                                    médias empresas, são vistas online</h3>
                 <div className="imagem_quem_somos"> 
                     <img className="icone_quemSomos" 
                         src={imgQuemSomos} 
