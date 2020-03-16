@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './solutionsComponent.css';
-import img from '../../assets/imgs/prog.jpg';
+import img_solucoes from '../../assets/imgs/img_solucoes.jpg';
 
 class SolutionsComponent extends Component {
     render ()  {
         
         return (
-            <div className="container-solutions" style={{backgroundImage: `url(${img})`}}>
+            <div className="container-solutions" style={{backgroundImage: `url(${img_solucoes})`}}>
                 
                 
                 <h2>Nossas Soluções</h2>
