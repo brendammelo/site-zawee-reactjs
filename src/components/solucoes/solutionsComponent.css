@@ -1,6 +1,6 @@
 
-.container-solutions{
-    height: 100vh;
+/*.container-solutions{
+    height: 10vh;
     width: 100vw;
     background-size: 100% 100%;
     
@@ -25,9 +25,8 @@
     margin-left: 15vw;
     height: 50vh;
     width: 70vw;
-    background-color: #f6f6f6; opacity: 1.0;
+    
 }
-
 .container-solutions > h2{
     margin: 0;
     padding-left: 10%;
@@ -46,4 +45,10 @@
     width: 70vw;
     background-color: #f6f6f6; opacity: 1.0;
 }
+*/
 
+.section_solucoes{
+background: url('../../assets/imgs/img_solucoes.jpg') center center/cover
+    no-repeat fixed padding-box rgba(67, 3, 7, 0.4);    width: 100%;
+    height: 100vh;
+}

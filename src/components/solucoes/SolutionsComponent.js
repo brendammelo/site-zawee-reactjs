@@ -9,10 +9,10 @@ render ()  {
 
         <section className="section_solucoes">
                 
-            <h2 className="title_solucoes">Nossas Soluções</h2>
-            <div className="container-box">
+            <div className="container-box" >
                 
-                <div className="container-solutions" style={{backgroundImage: `url(${img_solucoes})`}}></div>
+                <h2 className="title_solucoes">Nossas Soluções</h2>
+                <div className="container-solutions"></div>
     
                     <div className="container-inner-solutions">
                         <div className="img-1"></div>
