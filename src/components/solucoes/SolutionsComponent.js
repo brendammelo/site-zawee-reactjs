@@ -35,7 +35,7 @@ render ()  {
                                 de redes sociais</p>
                         </div>
                         <div className="box_solucoes3">
-                            <img className="img_solutions_teste"
+                            <img className="img_solutions_3"
                                 src={Seo} 
                                 alt="seo e google ads"
                                 height="35%"/>
