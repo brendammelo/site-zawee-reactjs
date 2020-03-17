@@ -19,8 +19,7 @@ render ()  {
                 <div className="container-solutions">
     
                         <div className="box_solucoes1">
-                            <img 
-                                style={{marginLeft:'2vw'}}
+                            <img className="img_solutions"
                                 src={websites} 
                                 alt="desenvolvimento de sites"
                                 height="35%"/>
@@ -28,21 +27,19 @@ render ()  {
                                             websites</p>
                         </div>
                         <div className="box_solucoes2">
-                            <img 
-                                style={{marginLeft:'5vw'}} 
+                            <img className="img_solutions"
                                 src={redeSociais} 
                                 alt="gerenciamento de redes sociais"
                                 height="35%"/>
-                            <p className="texto_solucoes1">Criação e gerenciamento <br></br>
+                            <p className="texto_solucoes2">Criação e gerenciamento <br></br>
                                 de redes sociais</p>
                         </div>
                         <div className="box_solucoes3">
-                            <img 
-                                style={{marginLeft:'2vw'}}
+                            <img className="img_solutions_teste"
                                 src={Seo} 
                                 alt="seo e google ads"
                                 height="35%"/>
-                            <p className="texto_solucoes1">Google Ads, e SEO</p>
+                            <p className="texto_solucoes3">Google Ads e SEO</p>
                         </div>
                 </div>
             </div>
