@@ -6,7 +6,6 @@
 }
 
 .title_form{
-    border: 2px solid rgb(48, 47, 47);
     width:500px;
     font-size: 2.7em;
     color: rgb(233, 233, 233);
@@ -14,7 +13,6 @@
 }
 
 .container_form{
-    border: 2px solid rgb(48, 47, 47);
     width: 50%;
     height: 70vh;
     margin-left: 10%;
@@ -22,7 +20,6 @@
 }
 
 .container_formulario{
-    border: 2px solid rgb(48, 47, 47);
     display: flex;
 
 }
@@ -30,7 +27,6 @@
 .box_img_botao{
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(48, 47, 47);
     margin-left: 7%;
 
 

@@ -7,7 +7,6 @@
 
 
 .title_diferencial{
-    border: 2px solid rgb(48, 47, 47);
     width:400px;
     font-size: 2.7em;
     color: rgb(66, 66, 66);
@@ -15,7 +14,6 @@
 }
 
 .container_box{
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     
@@ -27,7 +25,6 @@
 }
 
 .container-diferencial{
-    border: 2px solid yellow;
 
     width: 95%;
     height: 65vh;
@@ -63,7 +60,6 @@
     color: rgb(66, 66, 66);
     opacity: 98%;
     text-align: center;
-    border: 2px solid black;
     margin-top: 5%;
 
 
@@ -72,7 +68,6 @@
 
 
 .img_diferencial1, .img_diferencial2, .img_diferencial3{
-    border: 2px solid black;
     width: 220px;
     height: 220px;
     margin-top: 15%;
@@ -91,7 +86,8 @@
     justify-content: center;
     padding: 20px;
     width: 290px;
-    background-color: #B0D7E9;
+    background: linear-gradient(to right, #4fadffa4, #0e70f196); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       
     border-radius: 25px;
 }
 
@@ -106,7 +102,6 @@
 }
 
 .img_diferencial3{
-    border: 2px solid black;
     width: 220px;
     height: 220px;
 }
