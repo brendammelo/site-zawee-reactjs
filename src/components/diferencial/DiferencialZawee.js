@@ -1,7 +1,7 @@
 import React from 'react';
-import './footer.css';
+import './diferencial.css';
 
-class Footer extends Component {
+class DiferencialComponent extends Component {
     render ()  {
             
         return (
@@ -14,4 +14,4 @@ class Footer extends Component {
 
 
 
-    export default Footer;
+    export default DiferencialComponent;
