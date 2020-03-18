@@ -8,6 +8,8 @@ import Header from './components/header/HeaderComponent';
 import QuemSomos from './components/quemSomos/QuemSomos';
 import Solutions from './components/solucoes/SolutionsComponent';
 import Diferencial from './components/diferencial/DiferencialZawee';
+import Form from './components/form/Form';
+
 
 
 ReactDOM.render(
@@ -16,6 +18,7 @@ ReactDOM.render(
 < QuemSomos />
 < Solutions />
 < Diferencial />
+<Form />
     
     
   </>  

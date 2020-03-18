@@ -1,0 +1,111 @@
+.section_diferencial{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.title_diferencial{
+    width:400px;
+    font-size: 2.7em;
+    color: rgb(66, 66, 66);
+    margin-left: 10%;
+}
+
+.container_box{
+    display: flex;
+    flex-direction: column;
+    
+    
+    /*margin-top: 20vh;
+    margin-left: 15vw;*/
+    height: 100vh;
+    
+}
+
+.container-diferencial{
+
+    width: 95%;
+    height: 65vh;
+    border-radius: 10px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.box_diferencial1 {
+    margin-top: 15vh;
+    margin-left: 5vw;
+
+}
+
+.box_diferencial2 {
+    margin-top: 15vh;
+
+    
+}
+
+.box_diferencial3 {
+    margin-top: 15vh;
+    margin-right: 5vw;
+
+}
+
+.texto_diferencial1, .texto_diferencial2, .texto_diferencial3{
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(66, 66, 66);
+    opacity: 98%;
+    text-align: center;
+    margin-top: 5%;
+
+
+    
+}
+
+
+.img_diferencial1, .img_diferencial2, .img_diferencial3{
+    width: 220px;
+    height: 220px;
+    margin-top: 15%;
+
+}
+
+.img_diferencial1, .img_diferencial3{
+    margin-top: 7%;
+}
+
+.box_diferencial1, .box_diferencial2, .box_diferencial3{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 290px;
+    background: linear-gradient(to right, #4fadffa4, #0e70f196); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       
+    border-radius: 25px;
+}
+
+
+
+.box_diferencial2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.img_diferencial3{
+    width: 220px;
+    height: 220px;
+}
+
+.button{
+    margin: 30px auto;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './form.css';
 
-import img1 from '../../assets/icons/contato.png';
+import img_contato from '../../assets/icons/contato.png';
 
 class Form extends Component {
     render ()  {
@@ -9,7 +9,18 @@ class Form extends Component {
         return (
 
             <>
-            
+            <section className="section_form">
+                <h2 className="title_form">Vem falar com a gente!</h2>
+                <div className="container_formulario">
+                    <div className="container_form"></div>
+                    <div className="box_img_botao">
+                        <img className="img_contato" src={img_contato}/>
+                        <div className="button_form">
+                            <button>Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
             </>
 
         )}}

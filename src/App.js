@@ -5,6 +5,7 @@ import HeaderComponent from './components/header/HeaderComponent';
 import QuemSomos from './components/quemSomos/QuemSomos';
 import SolutionsComponent from './components/solucoes/SolutionsComponent';
 import Diferencial from './components/diferencial/DiferencialZawee';
+import Form from './components/form/Form';
 
 const App = () => (
   <div className="App">
@@ -12,6 +13,7 @@ const App = () => (
     <QuemSomos />
     <SolutionsComponent />
     < Diferencial />
+    <Form />
     
   </div>
 );

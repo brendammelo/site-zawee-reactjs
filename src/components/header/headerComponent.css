@@ -1,14 +1,13 @@
 .section_header{
     height: 100vh;
     border: 2px solid black;
-    background: linear-gradient(to right, #0aa3e0, #495ff4);
-}
+    background: url('../../assets/imgs/hero.jpg') center center/cover
+    no-repeat fixed padding-box #08A2FE;}
+
+
 
 .menu_header{
-    border: 4px solid white;
-
     height: 10vh;
-    border: 2px solid black;
 
 }
 
@@ -21,14 +20,12 @@
     }
 
     .hero_header{
-        border: 4px solid black;
         margin: 200px 130px;
 
     }
 }
 
 .titulo_header{
-    border: 4px solid white;
 
     color: white;
     font-size: 100px;
@@ -36,7 +33,6 @@
 }
 
 .legenda_header{
-    border: 4px solid white;
 
     color: white;
     font-weight: normal;
@@ -45,34 +41,30 @@
 }
 
 .teste_header{
-    border: 4px solid white;
 
     display: flex;
     flex-direction: column;
     margin-top: 100px;
 }
 .hero_header{
-    border: 4px solid white;
 
     margin: 0px 130px;
 }
 
 .scroll_down{
-    border: 4px solid white;
-    width: 75px;
+    width: 70px;
     margin: auto;
     color: white;
     font-size: 14px;
 }
 
 .icone_hero{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 
 .link_hero{
-    border: 4px solid white;
     width: 100px;
     display: flex;
     flex-direction: column;
@@ -93,15 +85,15 @@
   .menu_list_link {
     display: flex;
     text-decoration: none;
-    color: white;
+    color: rgb(245, 237, 237);
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     font-size: 14px;
     padding: 0px 30px;
   }
   .menu_list_link:hover {
-    font-weight: 400;
     border-bottom: 2px solid #03b6fd;
+    color:white;
   }
   

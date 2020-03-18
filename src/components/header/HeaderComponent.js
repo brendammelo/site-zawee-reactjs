@@ -2,6 +2,7 @@ import './headerComponent.css';
 import React, { Component } from 'react';
 import icone from '../../assets/imgs/icone_play.png';
 
+
 import { Link, animateScroll as scroll } from "react-scroll";
 
 
@@ -11,8 +12,7 @@ render ()  {
     return (
 
         <section className = "section_header">
-
-
+            
 
 
             <div className = "menu_header">
@@ -45,7 +45,7 @@ render ()  {
                 </div>
                 
                 <div className="link_hero">
-                    <p className="scroll_down"> Scroll Down </p>
+                    <p className="scroll_down"> Saiba mais </p>
                     <a className="ancora_hero" >
                         <Link
                             activeClass="active"
