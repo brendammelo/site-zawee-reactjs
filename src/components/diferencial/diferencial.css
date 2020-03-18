@@ -1,16 +1,16 @@
 .section_diferencial{
-    background: url('../../assets/imgs/img_solucoes.jpg') center center/cover
-    no-repeat fixed padding-box rgba(67, 3, 7, 0.4);    width: 100%;
+    background-color: whitesmoke;
+    width: 100%;
     height: 100vh;
 
 }
 
 
 .title_diferencial{
-    border: 2px solid white;
+    border: 2px solid rgb(48, 47, 47);
     width:400px;
     font-size: 2.7em;
-    color: white;
+    color: rgb(66, 66, 66);
     margin-left: 10%;
 }
 
@@ -27,9 +27,10 @@
 }
 
 .container-diferencial{
-    width: 80%;
+    border: 2px solid yellow;
+
+    width: 100%;
     height: 70vh;
-    background-color: whitesmoke;
     border-radius: 10px;
     margin: 0px auto;
     display: flex;
@@ -41,13 +42,11 @@
 .box_diferencial1 {
     margin-top: 15vh;
     margin-left: 5vw;
-    border: 4px solid black;
 
 }
 
 .box_diferencial2 {
     margin-top: 15vh;
-    border: 4px solid black;
 
     
 }
@@ -55,30 +54,32 @@
 .box_diferencial3 {
     margin-top: 15vh;
     margin-right: 5vw;
-    border: 4px solid black;
 
 }
 
 .texto_diferencial1, .texto_diferencial2, .texto_diferencial3{
     font-weight: bold;
-    font-size: 30px;
-    color: #707070; opacity: 90%;
+    font-size: 26px;
+    color: rgb(66, 66, 66);
+    opacity: 98%;
     text-align: center;
     border: 2px solid black;
+    margin-top: -5%;
 
 
     
 }
 .texto_diferencial3{
-    width: 200px;
-    margin-top: 30px;
+    width: 300px;
+    margin-top: -5%;
 
 }
 
-.img_diferencial1, .img_diferencial2{
+.img_diferencial1, .img_diferencial2, .img_diferencial3{
     border: 2px solid black;
-    width: 170px;
-    height: 170px;
+    width: 220px;
+    height: 220px;
+    margin-top: 15%;
 
 }
 
@@ -89,7 +90,9 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    width: 400px;
+    width: 300px;
+    background-color: rgba(6, 167, 216, 0.288);
+    border-radius: 20px;
 }
 
 
@@ -104,7 +107,6 @@
 
 .img_diferencial3{
     border: 2px solid black;
-    margin-top: -40px;
-    width: 170px;
-    height: 170px;
+    width: 250px;
+    height: 250px;
 }

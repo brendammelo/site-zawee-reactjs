@@ -19,20 +19,19 @@ class DiferencialComponent extends Component {
                     <div className="container-diferencial">
 
                         <div className="box_diferencial1">
+                            <p className="texto_diferencial1">Pagamento só após a prototipação</p>
                             <img className="img_diferencial1" src={img1}/>
-                            <p className="texto_diferencial1">blabla</p>
                         
                         </div>
 
                         <div className="box_diferencial2">
+                            <p className="texto_diferencial2">Suporte gratuito</p>
                             <img className="img_diferencial2" src={img2}/>
-                            <p className="texto_diferencial2">blabla</p>
-                        
                         </div>
 
                         <div className="box_diferencial3">
+                            <p className="texto_diferencial3">Qualidade com o melhor custo-benefício</p>
                             <img className="img_diferencial3" src={img3}/>
-                            <p className="texto_diferencial3">blabla</p>
                         
                         </div>
                     </div>
