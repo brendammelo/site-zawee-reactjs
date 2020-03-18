@@ -1,5 +1,5 @@
-import React from 'react';
 import './diferencial.css';
+import React, { Component } from 'react';
 
 import img1 from '../../assets/icons/prototipo.png';
 import img2 from '../../assets/icons/suporte.png';
@@ -12,7 +12,9 @@ class DiferencialComponent extends Component {
         return (
 
             <>
-            
+            <div className="teste">
+                <h1>OLA</h1>
+            </div>
             </>
 
         )}}
