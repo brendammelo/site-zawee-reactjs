@@ -34,6 +34,10 @@ class DiferencialComponent extends Component {
                             <img className="img_diferencial3" src={img3}/>
                         
                         </div>
+                        
+                    </div>
+                    <div className="button">
+                        <button>Faça seu orçamento</button>
                     </div>
                 </div>
 

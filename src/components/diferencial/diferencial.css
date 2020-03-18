@@ -92,7 +92,7 @@
     padding: 20px;
     width: 290px;
     background-color: #B0D7E9;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 
@@ -109,4 +109,8 @@
     border: 2px solid black;
     width: 220px;
     height: 220px;
+}
+
+.button{
+    margin: 30px auto;
 }
