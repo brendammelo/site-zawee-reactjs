@@ -5,11 +5,24 @@
     border: 0.1px solid  #4b61ee0a;
 }
 
+
 .title_form{
     width:500px;
     font-size: 2.7em;
     color: rgb(233, 233, 233);
     margin-left: 10%;
+}
+@media (max-width:830px){
+    .title_form{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.3em;
+        width:430px;
+        border: 2px solid white;
+
+
+
+    }
 }
 
 .container_form{
@@ -18,11 +31,18 @@
     margin-left: 10%;
 
 }
+@media (max-width:830px){
+    .container_form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
 
-.container_formulario{
-    display: flex;
-
+    }
 }
+
+
+
 
 .box_img_botao{
     display: flex;
@@ -31,17 +51,40 @@
 
 
 }
+@media (min-width:831px){
+    .box_img_botao{
+        margin-top: -30%;
+        margin-left: 10%;
+
+    }
+}
 
 
 .img_contato{
     width: 260px;
     height: 260px;
-    margin: auto;
+    margin-left: 60%;
+}
+@media (max-width:830px){
+    .img_contato{
+        width:170px;
+        height: 170px;
+        margin-left: 55%;
+        margin-top: -30%;
+    }
 }
 
 #reactHubspotForm0{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    
     border: 4px solid black;
+}
+
+@media (max-width:830px){
+    #reactHubspotForm0{
+        width: 90%;
+        border: 4px solid white;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
 }
