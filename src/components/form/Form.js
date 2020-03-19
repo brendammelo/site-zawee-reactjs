@@ -25,9 +25,6 @@ class Form extends Component {
                     </div>
                     <div className="box_img_botao">
                         <img className="img_contato" src={img_contato}/>
-                        <div className="button_form">
-                            <button>Enviar</button>
-                        </div>
                     </div>
                 </div>
             </section>
