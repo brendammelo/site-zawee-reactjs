@@ -99,7 +99,6 @@
         flex-direction: column;
         height:230vh;
         width:70%;
-        border: 2px solid pink;
     }
 
 }
@@ -157,7 +156,6 @@
 
 @media  (max-width:900px){
     .texto_solucoes1, .texto_solucoes2, .texto_solucoes3{
-        border: 2px solid black;
         font-size: 25px;
     }
 }
@@ -193,7 +191,6 @@
 @media  (max-width:900px){
     .box_solucoes1, .box_solucoes2, .box_solucoes3{
     
-        border: 2px solid black;
         padding: 0px;
         width: 80%;
         margin-left: auto;
