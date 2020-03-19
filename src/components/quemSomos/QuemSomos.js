@@ -7,9 +7,9 @@ const QuemSomos = () => {
         <div className="o-que-fazemos-container">
             <h2 className="title_quem_somos">Quem é a Zawee</h2>
             <div className="content" id="to-scroll">
-                <h3 className="texto_quem_somos">Somos um grupo de alunos da UFRPE, 
+                <h3 className="texto_quem_somos">Somos um grupo de alunos da UFRPE 
                                     buscando mudar a forma como pequenas e 
-                                    médias empresas, são vistas online</h3>
+                                    médias empresas são vistas online</h3>
                 <div className="imagem_quem_somos"> 
                     <img className="icone_quemSomos" 
                         src={imgQuemSomos} 
