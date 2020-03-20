@@ -1,6 +1,7 @@
 import React from 'react';
 import './quemSomos.css';
 import imgQuemSomos from '../../assets/icons/quem-somos.png';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const QuemSomos = () => {
     return (
@@ -18,9 +19,20 @@ const QuemSomos = () => {
                     />
                 </div>
             </div>
+            <Link
+                activeClass="active"
+                to="section_form"
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={550}
+            >
             <div className="button">
+                
                 <button>Contate-nos</button>
+                
             </div>
+            </Link>
         </div>
     )
 }

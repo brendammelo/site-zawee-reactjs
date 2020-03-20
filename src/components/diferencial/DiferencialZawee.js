@@ -1,5 +1,6 @@
 import './diferencial.css';
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import img1 from '../../assets/icons/prototipo.png';
 import img2 from '../../assets/icons/suporte.png';
@@ -36,9 +37,18 @@ class DiferencialComponent extends Component {
                         </div>
                         
                     </div>
+                    <Link
+                        activeClass="active"
+                        to="section_form"
+                        spy={true}
+                        smooth={true}
+                        offset={1}
+                        duration={550}
+                    >
                     <div className="button">
                         <button>Faça seu orçamento</button>
                     </div>
+                    </Link>
                 </div>
 
 
