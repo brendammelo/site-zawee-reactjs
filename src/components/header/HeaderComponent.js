@@ -19,16 +19,52 @@ render ()  {
                 <nav className="menu">
                     <ul className="menu_list">
                         <li className="menu_list_item">
-                            <a className="menu_list_link" href="#home"> Home </a>
+                            <Link
+                                activeClass="active"
+                                to="section_header"
+                                spy={true}
+                                smooth={true}
+                                offset={1}
+                                duration={550}
+                            >
+                                <a className="menu_list_link" href="#home"> Home </a>
+                            </Link>
                         </li>
                         <li className="menu_list_item">
-                            <a className="menu_list_link" href="#about"> Sobre nós </a>
+                            <Link
+                                activeClass="active"
+                                to="o-que-fazemos-container"
+                                spy={true}
+                                smooth={true}
+                                offset={1}
+                                duration={550}
+                            >
+                                <a className="menu_list_link" href="#about"> Sobre nós </a>
+                            </Link>
                         </li>
                         <li className="menu_list_item">
-                            <a className="menu_list_link" href="#whoDoes"> Soluções </a>
+                            <Link
+                                activeClass="active"
+                                to="section_solucoes"
+                                spy={true}
+                                smooth={true}
+                                offset={1}
+                                duration={550}
+                            >
+                                <a className="menu_list_link" href="#whoDoes"> Soluções </a>
+                            </Link>
                         </li>
                         <li className="menu_list_item">
-                            <a className="menu_list_link" href="#impactedWomen"> Contato </a>
+                            <Link
+                                activeClass="active"
+                                to="section_form"
+                                spy={true}
+                                smooth={true}
+                                offset={1}
+                                duration={550}
+                            >
+                                <a className="menu_list_link" href="#impactedWomen"> Contato </a>
+                            </Link>
                         </li>
                     </ul>
                 </nav>      
