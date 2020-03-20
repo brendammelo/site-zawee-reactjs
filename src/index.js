@@ -10,22 +10,24 @@ import Solutions from './components/solucoes/SolutionsComponent';
 import Diferencial from './components/diferencial/DiferencialZawee';
 import Form from './components/form/Form';
 import Footer from './components/footer/Footer';
+import Whatsapp from './components/whatsapp/Whatsapp';
 
 
 
 ReactDOM.render(
-<>
+<div>
+  <div className="overflowx">
+  
 < Header />
 < QuemSomos />
 < Solutions />
 < Diferencial />
 < Form />
-< Footer />
+< Footer />   
+  </div>  
+<Whatsapp/>
     
-    
-  </>  
-    
-    
+  </div>  
     
     
     , document.getElementById('root'));
