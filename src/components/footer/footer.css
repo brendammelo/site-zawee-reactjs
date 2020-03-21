@@ -1,43 +1,28 @@
-.footer-container {
+.footer {
     height: 30vh;
     width: 100%;
     background-color: whitesmoke;
 }
 
-.inner-footer{
+.container-footer{
     
+    height: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
-.logo-zawee{
-    height: 20%;
+.container-logo{
+    display: flex;
+    flex-direction: column;
+
 }
 
-.icon-insta{
-    font-size: 2em;
-    color: #606263;
-}
-
-.icon-face{
-    font-size: 2em;
-    color: #606263;
-}
-
-.icon-phone{
-    font-size: 2em;
-    color: #606263;
-}
-
-.icon-map{
-    font-size: 2em;
-    color: #606263;
-}
-
-.icon-mail{
-    font-size: 2em;
-    color: #606263;
+.icons{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .final-footer{
