@@ -16,30 +16,32 @@ class Footer extends Component {
             
         return (
 
-            <>
-            <section className="footer-container">
-                <div className="inner-footer">
-                    <div className="logo-zawee">
+            <div className="footer">
+                <div className="container-footer">
+                    <div className="container-logo">
                         <img className="img_zawee" 
-                        src={zaweeImg}
-                        height='30%'
-                        width='35%'
+                            src={zaweeImg}
+                            height='60%'
+                            width='40%'
                         />
+                        <div className="icons">
+                            <FontAwesomeIcon icon={faInstagramSquare} />
+                            <FontAwesomeIcon icon={faFacebook} />
+                            <FontAwesomeIcon icon={faEnvelope} />
+                        </div>
                     </div>
-                    <div className="icon-insta"><FontAwesomeIcon icon={faInstagramSquare} /></div>
-                    <div className="icon-face"><FontAwesomeIcon icon={faFacebook} /></div>
-                    <div className="icon-phone"> <FontAwesomeIcon icon={faPhoneAlt} />
-                        <p>(81)99999-9999</p>
+
+                    <div className="container-number">
+                        <FontAwesomeIcon icon={faPhoneAlt} />
+                        <FontAwesomeIcon icon={faMapMarkerAlt} />
                     </div>
-                    <div className="icon-map"><FontAwesomeIcon icon={faMapMarkerAlt} /></div>
-                    <div className="icon-mail"><FontAwesomeIcon icon={faEnvelope} /></div>
-                   
+
                 </div>
                 <div className='final-footer'>
                     <p>Feito com ❤️ por nós</p>
                 </div>
-            </section>
-            </>
+
+            </div>
 
         )}}
 
