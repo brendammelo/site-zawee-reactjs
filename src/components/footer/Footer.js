@@ -32,8 +32,16 @@ class Footer extends Component {
                     </div>
 
                     <div className="container-number">
-                        <FontAwesomeIcon icon={faPhoneAlt} />
+                        <div className="phone">
+                            <FontAwesomeIcon icon={faPhoneAlt} />
+                            <p>(81)99999-9999</p>
+                        </div>
+                        <div className="address">
                         <FontAwesomeIcon icon={faMapMarkerAlt} />
+                            <p>Rua Dom Manuel de Medeiros, s/n - Dois Irmãos, 
+                                Recife - PE, 52171-900</p>
+                            
+                        </div>
                     </div>
 
                 </div>
