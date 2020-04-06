@@ -59,6 +59,7 @@
 
     .section_solucoes{
         height: 200vh;
+        
 
     }
 }
@@ -99,6 +100,7 @@
         flex-direction: column;
         height:230vh;
         width:70%;
+        
     }
 
 }
@@ -107,6 +109,7 @@
     .container-solutions{
         width: 90%;
         justify-content: center;
+        
 
     }
 }
@@ -132,6 +135,7 @@
 @media  (max-width:900px){
     .box_solucoes3 {
         height: 45vh;
+        
     }
 }
 
@@ -157,6 +161,7 @@
 @media  (max-width:900px){
     .texto_solucoes1, .texto_solucoes2, .texto_solucoes3{
         font-size: 25px;
+        
     }
 }
 
@@ -195,7 +200,7 @@
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-
+        
 
     }
 }
@@ -210,7 +215,7 @@
 @media  (max-width:900px){
     .img_solutions_3{
         margin-top: 5px;
-
+        
     }
 }
 

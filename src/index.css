@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+.overflowx{
+  height: auto;
+  width: auto;
+  
+}
+
 /*
 .overflowx {
   overflow-x: hidden;
