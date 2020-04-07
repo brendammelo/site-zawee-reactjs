@@ -7,7 +7,7 @@
 @media (max-width:535px){
 
     .o-que-fazemos-container {
-        height: 100vh;
+        height: 80vh;
         width: 100%;
         
     }
@@ -15,7 +15,7 @@
 
 @media (min-width:536px) and (max-width:615px){
     .o-que-fazemos-container {
-        height: 100vh;
+        height: 80vh;
         width: 100%;
         
 
@@ -52,6 +52,7 @@
         font-size: 2.0em;
         align-items: center;
         padding-top: 2vh;
+        font-weight: 500;
 
 
     }
@@ -64,6 +65,7 @@
         padding-top: 1vh;
         margin-left: 2%;
         font-size: 2.0em;
+        
 
     }
 }
@@ -129,10 +131,14 @@
 
 
     .texto_quem_somos{
-        width: 90%;
+        width: 70%;
         margin-left: -1%;
         font-size: 20px;
         margin-top: 10px;
+        font-weight: normal;
+        text-align: center;
+
+
     }
 }
 
@@ -140,10 +146,13 @@
 @media (min-width:536px) and (max-width:615px){
 
     .texto_quem_somos{
-        width: 90%;
+        width: 70%;
         margin-left: 1%;
         font-size: 20px;
         margin-top: 10px;
+        font-weight: normal;
+        text-align: center;
+
     
     }
 }
@@ -169,8 +178,8 @@
     .icone_quemSomos {
     
     padding-right: 0%;
-    width:150px;
-    height:150px;
+    width:110px;
+    height:110px;
     margin: 0px 15%;
     }
 }
@@ -181,8 +190,8 @@
     .icone_quemSomos {
     
     padding-right: 0%;
-    width:150px;
-    height:150px;
+    width:110px;
+    height:110px;
     margin: 0px 15%;
     }
 }
@@ -257,8 +266,8 @@
 @media (max-width:535px){
 
     .button > button{
-        height: 35px;
-        width: 170px;
+        height: 40px;
+        width: 140px;
         font-size: 1.0em;
 
     }
@@ -268,8 +277,8 @@
 @media (min-width:534px) and (max-width:615px){
 
     .button > button{
-        height: 35px;
-        width: 170px;
+        height: 40px;
+        width: 140px;
         font-size: 1.0em;
 
     }
@@ -278,8 +287,8 @@
 @media (min-width:616px) and (max-width:870px){
     
     .button > button{
-        height: 35px;
-        width: 170px;
+        height: 40px;
+        width: 140px;
         font-size: 1.0em;
 
     }
