@@ -25,7 +25,9 @@ class Footer extends Component {
                             width='40%'
                         />
                         <div className="icons">
+                        <a href="default.asp">
                             <FontAwesomeIcon icon={faInstagramSquare} />
+                        </a>
                             <FontAwesomeIcon icon={faFacebook} />
                             <FontAwesomeIcon icon={faEnvelope} />
                         </div>

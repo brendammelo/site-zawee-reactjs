@@ -73,6 +73,16 @@
     }
 }
 
+@media (max-width:1024px){
+    .box_img_botao{
+        visibility: hidden;
+    }
+}
+@media (max-width:1024px){
+    .img_contato{
+        visibility: hidden;
+    }
+}
 #reactHubspotForm0{
     
 }

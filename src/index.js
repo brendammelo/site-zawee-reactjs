@@ -16,7 +16,7 @@ import Whatsapp from './components/whatsapp/Whatsapp';
 
 ReactDOM.render(
 <div>
-  <div className="overflowx">
+  
   
 < Header />
 < QuemSomos />
@@ -24,7 +24,7 @@ ReactDOM.render(
 < Diferencial />
 < Form />
 < Footer />   
-  </div>  
+    
 <Whatsapp/>
     
   </div>  

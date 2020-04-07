@@ -16,11 +16,13 @@
 
     .legenda_header{
         width: 300px;
+        
 
     }
 
     .hero_header{
         margin: 0px 0px;
+        
     }
 }
 
@@ -57,6 +59,7 @@
 @media (max-width:650px){
     .hero_header{
         margin: 0px auto;
+        
 
     }
 }
