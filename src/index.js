@@ -7,18 +7,27 @@ import * as serviceWorker from './serviceWorker';
 import Header from './components/header/HeaderComponent';
 import QuemSomos from './components/quemSomos/QuemSomos';
 import Solutions from './components/solucoes/SolutionsComponent';
+import Diferencial from './components/diferencial/DiferencialZawee';
+import Form from './components/form/Form';
+import Footer from './components/footer/Footer';
+import Whatsapp from './components/whatsapp/Whatsapp';
+
 
 
 ReactDOM.render(
-<>
+<div>
+  
+  
 < Header />
 < QuemSomos />
 < Solutions />
+< Diferencial />
+< Form />
+< Footer />   
     
+<Whatsapp/>
     
-  </>  
-    
-    
+  </div>  
     
     
     , document.getElementById('root'));
