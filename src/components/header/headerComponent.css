@@ -1,8 +1,8 @@
 .section_header{
     height: 100vh;
     border: 0.1px solid rgba(8, 164, 254, 0.062);
-    background: url('../../assets/imgs/hero.jpg') center center/cover
-    no-repeat fixed padding-box #08A2FE;}
+    background: linear-gradient(to right, #4b61ee, #0aa3e0);
+}
 
 
 
@@ -36,6 +36,8 @@
 
     .titulo_header{
         margin: 20% auto;
+        font-size: 70px;
+
     }
 }
 .legenda_header{
@@ -44,6 +46,12 @@
     font-weight: normal;
     width: 400px;
     margin-top: -50px;
+}
+@media (max-width:650px){
+
+    .legenda_header{
+        font-size: 20px;
+    }
 }
 
 .teste_header{
