@@ -49,7 +49,7 @@
     
         width:60%;
         margin: 0px 0px;
-        font-size: 3.3em;
+        font-size: 2.0em;
         align-items: center;
         padding-top: 2vh;
 
@@ -63,6 +63,8 @@
     .title_quem_somos{
         padding-top: 1vh;
         margin-left: 2%;
+        font-size: 2.0em;
+
     }
 }
 
@@ -71,6 +73,8 @@
     .title_quem_somos{
         padding-top: 1vh;
         margin-left: 2%;
+        font-size: 2.0em;
+
     }
 
 }
@@ -127,7 +131,7 @@
     .texto_quem_somos{
         width: 90%;
         margin-left: -1%;
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 10px;
     }
 }
@@ -138,7 +142,7 @@
     .texto_quem_somos{
         width: 90%;
         margin-left: 1%;
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 10px;
     
     }
@@ -149,6 +153,8 @@
 
     .texto_quem_somos{
         width: 90%;
+        font-size: 20px;
+
     }
 }
 
@@ -163,8 +169,8 @@
     .icone_quemSomos {
     
     padding-right: 0%;
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
     margin: 0px 15%;
     }
 }
@@ -175,8 +181,8 @@
     .icone_quemSomos {
     
     padding-right: 0%;
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
     margin: 0px 15%;
     }
 }
@@ -186,8 +192,8 @@
     .icone_quemSomos {
     
         padding-right: 0%;
-        width:220px;
-        height:220px;
+        width:200px;
+        height:200px;
         margin: 0px 0px;
         }
 }
@@ -246,6 +252,37 @@
     border-style: none;
     cursor: pointer;
 
+}
+
+@media (max-width:535px){
+
+    .button > button{
+        height: 35px;
+        width: 170px;
+        font-size: 1.0em;
+
+    }
+
+}
+
+@media (min-width:534px) and (max-width:615px){
+
+    .button > button{
+        height: 35px;
+        width: 170px;
+        font-size: 1.0em;
+
+    }
+}
+
+@media (min-width:616px) and (max-width:870px){
+    
+    .button > button{
+        height: 35px;
+        width: 170px;
+        font-size: 1.0em;
+
+    }
 }
 
 
