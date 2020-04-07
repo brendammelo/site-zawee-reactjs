@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram} from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 
 
 import zaweeLogo from '../../assets/icons/zawee-logo.png';
@@ -25,11 +25,15 @@ class Footer extends Component {
                             width='40%'
                         />
                         <div className="icons">
-                        <a href="default.asp">
-                            <FontAwesomeIcon icon={faInstagramSquare} />
+                        <a className="icon-1" href="default.asp">
+                            <FontAwesomeIcon icon={faInstagram} />
                         </a>
-                            <FontAwesomeIcon icon={faFacebook} />
+                        <a className="icon-2" href="default.asp">
+                            <FontAwesomeIcon icon={faFacebookF} />
+                        </a>
+                        <a className="icon-3" href="default.asp">
                             <FontAwesomeIcon icon={faEnvelope} />
+                        </a>
                         </div>
                     </div>
 
