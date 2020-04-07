@@ -36,6 +36,8 @@
 
     .titulo_header{
         margin: 20% auto;
+        font-size: 70px;
+
     }
 }
 .legenda_header{
@@ -44,6 +46,12 @@
     font-weight: normal;
     width: 400px;
     margin-top: -50px;
+}
+@media (max-width:650px){
+
+    .legenda_header{
+        font-size: 20px;
+    }
 }
 
 .teste_header{
