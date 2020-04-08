@@ -53,8 +53,13 @@
     height: 100vh;
 
 }
-
 @media  (max-width:900px){
+
+    .section_solucoes{
+        height:150vh;
+    }
+}
+@media (min-width:652px) and (max-width:900px){
 
 
     .section_solucoes{
@@ -69,6 +74,14 @@
     font-size: 2.7em;
     color: white;
     margin-left: 10%;
+}
+@media  (max-width:900px){
+
+    .title_solucoes{
+        font-size: 2.0em;
+        font-weight: 500;
+
+    }
 }
 
 .container-box{
@@ -94,7 +107,18 @@
 
 }
 
-@media  (max-width:900px){
+@media  (max-width:650px){
+    
+    .container-solutions{
+        flex-direction: column;
+        height:120vh;
+        width:70%;
+        background:none;
+    }
+
+}
+
+@media  (min-width:652px) and (max-width:900px){
     
     .container-solutions{
         flex-direction: column;
@@ -158,7 +182,14 @@
 
 }
 
-@media  (max-width:900px){
+@media  (max-width:650px){
+    .texto_solucoes1, .texto_solucoes2, .texto_solucoes3{
+        font-size: 15px;
+        
+    }
+}
+
+@media (min-width:652px) and (max-width:900px){
     .texto_solucoes1, .texto_solucoes2, .texto_solucoes3{
         font-size: 20px;
         
@@ -172,7 +203,13 @@
     height: 170px;
 
 }
-@media  (max-width:900px){
+@media  (max-width:650px){
+    .img_solutions{
+        width:80px;
+        height:80px;
+    }
+}
+@media  (min-width:652px) and (max-width:900px){
 
     .img_solutions{
         width: 120px;
@@ -201,7 +238,25 @@
     padding: 20px;
 }
 
-@media  (max-width:900px){
+@media  (max-width:650px){
+
+    .box_solucoes1, .box_solucoes2, .box_solucoes3{
+    
+        padding: 5px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(241, 239, 239, 0.925);
+        border-radius:3%;
+        height: 30%;
+
+
+    }
+
+    
+}
+
+@media  (min-width:652px) and (max-width:900px){
     .box_solucoes1, .box_solucoes2, .box_solucoes3{
     
         padding: 0px;
@@ -221,7 +276,14 @@
     height: 170px;
 }
 
-@media  (max-width:900px){
+@media  (max-width:650px){
+    .img_solutions_3{
+        width:80px;
+        height:80px;
+    }
+}
+
+@media (min-width:652px) and (max-width:900px){
     .img_solutions_3{
         margin-top: 5px;
         border: 2px solid black;
