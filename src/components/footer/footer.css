@@ -25,7 +25,7 @@
     flex-direction: row;
     margin-left: 12vw;
     font-size: 1.3em;
-    color: #585858;
+    color: #000000;
     
 }
 
@@ -65,6 +65,18 @@
     justify-content: center;
     margin-right: 5px;
     
+}
+
+.phone > p {
+    margin: 0;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.address > p {
+    margin: 0;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .final-footer{

@@ -7,7 +7,7 @@ class WhatsApp extends Component {
 
     render() {
         return (
-            <a href="https://wa.me/" target="_blank">
+            <a href="https://wa.me/5581996347726" target="_blank">
                 <div className="rounded-circle whatsapp-button">
                     <img src={wwp} alt="WhatsApp" className="whatsapp-logo"/>
                 </div>
