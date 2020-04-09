@@ -5,7 +5,7 @@
 }
 @media (max-width:650px){
     .section_header{
-        height: 70vh;
+        height: 100vh;
     }
 }
 
@@ -107,10 +107,11 @@
 
         font-size: 8px;
         letter-spacing: 1px;
+        width:50px;
         }
     
     .link_hero{
-        margin-top:13%;
+        margin-top:50%;
     }
 }
 
@@ -144,6 +145,7 @@
   @media (max-width:650px){
     .menu_list_link{
         font-size: 10px;
+        padding: 0px 10px;
 
     }
 }
