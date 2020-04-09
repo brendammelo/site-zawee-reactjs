@@ -8,8 +8,7 @@
 
     .o-que-fazemos-container {
         height: 80vh;
-        width: 82%;
-        border: 2px solid black;
+        width: 83%;
         
     }
 }
@@ -49,7 +48,7 @@
     .title_quem_somos{
     
         width:60%;
-        margin: 5% auto;
+        margin: 0px auto;
         font-size: 1.7em;
         align-items: center;
         padding-top: 2vh;
@@ -128,7 +127,6 @@
         margin-top: 10px;
         font-weight: normal;
         text-align: center;
-        border: 2px solid black;
         margin: 10% auto;
 
 
@@ -174,7 +172,7 @@
     padding-right: 0%;
     width:110px;
     height:110px;
-    margin: 0px 15%;
+    margin: 0px auto;
     }
 }
 
@@ -186,7 +184,7 @@
     padding-right: 0%;
     width:110px;
     height:110px;
-    margin: 0px 15%;
+    margin: 0px auto;
     }
 }
 
