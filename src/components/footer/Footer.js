@@ -5,7 +5,7 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram} from "@fortawesome/free-brands-svg-icons";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 import zaweeLogo from '../../assets/icons/zawee-logo.png';
@@ -26,21 +26,21 @@ class Footer extends Component {
                         />
                         <div className="icons">
                         <a className="icon-1" href="default.asp">
-                            <FontAwesomeIcon icon={faInstagram} />
+                            <FontAwesomeIcon style={{marginTop: 3}} icon={faInstagram} />
                         </a>
                         <a className="icon-2" href="default.asp">
-                            <FontAwesomeIcon icon={faFacebookF} />
+                            <FontAwesomeIcon style={{marginTop: 3}} icon={faTwitter} />
                         </a>
                         <a className="icon-3" href="default.asp">
-                            <FontAwesomeIcon icon={faEnvelope} />
+                            <FontAwesomeIcon style={{marginTop: 3}} icon={faEnvelope} />
                         </a>
                         </div>
                     </div>
-
+                    
                     <div className="container-number">
                         <div className="phone">
                             <FontAwesomeIcon icon={faPhoneAlt} />
-                            <p>(81)99999-9999</p>
+                            <p>(81)99634-7726</p>
                         </div>
                         <div className="address">
                         <FontAwesomeIcon icon={faMapMarkerAlt} />

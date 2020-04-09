@@ -3,7 +3,11 @@
     border: 0.1px solid rgba(8, 164, 254, 0.062);
     background: linear-gradient(to right, #4b61ee, #0aa3e0);
 }
-
+@media (max-width:650px){
+    .section_header{
+        height: 100vh;
+    }
+}
 
 
 .menu_header{
@@ -36,7 +40,8 @@
 
     .titulo_header{
         margin: 20% auto;
-        font-size: 70px;
+        font-size: 60px;
+        margin-top: -10%;
 
     }
 }
@@ -50,7 +55,7 @@
 @media (max-width:650px){
 
     .legenda_header{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
@@ -92,6 +97,26 @@
     margin: 40px auto;
 }
 
+@media (max-width:650px){
+    .icone_hero{
+        width:30px;
+        height:30px;
+    }
+
+    .scroll_down{
+
+        font-size: 8px;
+        letter-spacing: 1px;
+        width:50px;
+        }
+    
+    .link_hero{
+        margin-top:50%;
+    }
+}
+
+
+
 
 
 .menu_list {
@@ -116,4 +141,14 @@
     border-bottom: 2px solid #03b6fd;
     color:white;
   }
+
+  @media (max-width:650px){
+    .menu_list_link{
+        font-size: 10px;
+        padding: 0px 10px;
+
+    }
+}
+
+
   
