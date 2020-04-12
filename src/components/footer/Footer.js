@@ -25,13 +25,13 @@ class Footer extends Component {
                             width='40%'
                         />
                         <div className="icons">
-                        <a className="icon-1" href="default.asp">
+                        <a className="icon-1" href="https://www.instagram.com/zaweetech/">
                             <FontAwesomeIcon style={{marginTop: 3}} icon={faInstagram} />
                         </a>
-                        <a className="icon-2" href="default.asp">
+                        <a className="icon-2" href="https://twitter.com/zaweetech">
                             <FontAwesomeIcon style={{marginTop: 3}} icon={faTwitter} />
                         </a>
-                        <a className="icon-3" href="default.asp">
+                        <a className="icon-3" href="mailto:zaweecontato@gmail.com">
                             <FontAwesomeIcon style={{marginTop: 3}} icon={faEnvelope} />
                         </a>
                         </div>
