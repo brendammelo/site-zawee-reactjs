@@ -90,7 +90,7 @@
     margin-right: 5vw;
     margin-top: 3vh;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     width:40%;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .img_zawee{
-    width:200px;
+    width:300px;
 }
 
 @media (max-width:650px){
