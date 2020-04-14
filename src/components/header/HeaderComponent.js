@@ -21,18 +21,6 @@ render ()  {
                         <li className="menu_list_item">
                             <Link
                                 activeClass="active"
-                                to="section_header"
-                                spy={true}
-                                smooth={true}
-                                offset={1}
-                                duration={550}
-                            >
-                                <a className="menu_list_link" href="#home"> Home </a>
-                            </Link>
-                        </li>
-                        <li className="menu_list_item">
-                            <Link
-                                activeClass="active"
                                 to="o-que-fazemos-container"
                                 spy={true}
                                 smooth={true}
@@ -51,7 +39,19 @@ render ()  {
                                 offset={1}
                                 duration={550}
                             >
-                                <a className="menu_list_link" href="#whoDoes"> Soluções </a>
+                                <a className="menu_list_link" href="#solutions"> Serviços</a>
+                            </Link>
+                        </li>
+                        <li className="menu_list_item">
+                            <Link
+                                activeClass="active"
+                                to="section_diferencial"
+                                spy={true}
+                                smooth={true}
+                                offset={1}
+                                duration={550}
+                            >
+                                <a className="menu_list_link" href="#whoDoes"> Diferencial </a>
                             </Link>
                         </li>
                         <li className="menu_list_item">

@@ -1,7 +1,7 @@
 .section_diferencial{
     background-color: whitesmoke;
     width: 100%;
-    height: 110vh;
+    height: 120vh;
 
 }
 .title_diferencial{
@@ -12,7 +12,7 @@
 }
 @media  (max-width:900px){
     .section_diferencial{
-        height: 160vh;
+        height: 180vh;
     }
 
     .title_diferencial{
@@ -81,9 +81,9 @@
 }
 
 .texto_diferencial1, .texto_diferencial2, .texto_diferencial3{
-    font-weight: bold;
+    font-weight: 500;
     font-size: 26px;
-    color: rgb(233, 223, 223);
+    color: rgb(247, 240, 240);
     text-align: center;
     margin-top: 5%;
 
@@ -100,9 +100,17 @@
 
 }
 @media (max-width:900px){
-    .img_diferencial1, .img_diferencial2, .img_diferencial3{
-    width:100px;
-    height:100px;
+    .img_diferencial2{
+        width:100px;
+        height:100px;
+    }
+    .img_diferencial1{
+        width:100px;
+        height:100px;
+    }
+    .img_diferencial3{
+        height:100px;
+        width:100px;
     }
 }
 @media(min-width:901px) and (max-width: 1220px){
@@ -124,17 +132,24 @@
     justify-content: center;
     padding: 20px;
     width: 290px;
-    background-color: rgb(71, 126, 209);       
+    background-color: rgb(95, 147, 224);       
     border-radius: 20px;
 }
 
 @media  (max-width:900px){
-    .box_diferencial1, .box_diferencial2, .box_diferencial3{
+    .box_diferencial1, .box_diferencial3{
         margin-left: auto;
         margin-right: auto;
         width:38%;
-        height: 170px;
+        height: 190px;
         
+    }
+
+    .box_diferencial2{
+        margin-left: auto;
+        margin-right: auto;
+        width:38%;
+        height: 190px;
     }
     .texto_diferencial1, .texto_diferencial2, .texto_diferencial3{
         font-size:18px;
@@ -165,8 +180,8 @@
     width: 250px;
 }
 
-@media (max-width:650px){
+@media (max-width:575px){
     .button{
-        margin: 25% auto;
+        margin: 35% auto;
     }
 }
