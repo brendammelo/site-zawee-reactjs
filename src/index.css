@@ -15,7 +15,7 @@ code {
 .overflowx{
   height: auto;
   width: auto;
-  
+  overflow: hidden;
 }
 
 /*

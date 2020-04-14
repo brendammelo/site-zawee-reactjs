@@ -176,7 +176,9 @@
 
 
 .button{
-    margin: 5% auto;
+
+    margin: 30px auto;
+    width: 250px;
 }
 
 @media (max-width:575px){
