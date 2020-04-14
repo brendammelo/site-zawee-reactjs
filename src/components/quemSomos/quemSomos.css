@@ -1,14 +1,13 @@
 .o-que-fazemos-container {
     height: 100vh;
-    padding-left: 8vw;
-    padding-right: 8vw;
+    
     background-color: #f6f6f6;
 }
 @media (max-width:535px){
 
     .o-que-fazemos-container {
         height: 80vh;
-        width: 83%;
+        width: 100%;
         
     }
 }

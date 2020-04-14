@@ -3,9 +3,10 @@
     border: 0.1px solid rgba(8, 164, 254, 0.062);
     background: linear-gradient(to right, #4b61ee, #0aa3e0);
 }
-@media (max-width:650px){
+@media (max-width:535px){
     .section_header{
         height: 100vh;
+        
     }
 }
 
@@ -64,6 +65,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    height: 600px;
 }
 .hero_header{
 
@@ -95,6 +97,7 @@
     flex-direction: column;
     align-items: center;
     margin: 40px auto;
+    padding-top: 100px;
 }
 
 @media (max-width:650px){
