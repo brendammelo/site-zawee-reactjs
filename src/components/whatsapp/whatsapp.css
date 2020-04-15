@@ -21,3 +21,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  @media  (max-width:650px){
+    .whatsapp-button{
+      position: fixed;
+      bottom: 16px;
+      right: 16px;
+      box-sizing: border-box;
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
+      
+      transition-duration: 0.1s;
+        
+    }
+}
