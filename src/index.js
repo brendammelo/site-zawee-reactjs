@@ -15,7 +15,7 @@ import Whatsapp from './components/whatsapp/Whatsapp';
 
 
 ReactDOM.render(
-<div>
+<div className="all-container">
   
   
 < Header />
@@ -25,7 +25,7 @@ ReactDOM.render(
 < Form />
 < Footer />   
     
-<Whatsapp/>
+<Whatsapp />
     
   </div>  
     
