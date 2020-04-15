@@ -18,6 +18,10 @@ code {
   overflow-x: hidden;
 }
 
+.all-container{
+  width: 100%;
+  overflow-x: hidden;
+}
 /*
 .overflowx {
   overflow-x: hidden;
