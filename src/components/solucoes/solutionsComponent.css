@@ -66,8 +66,8 @@
 
 }
 .img_solutions{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
 
 }
 .box_solucoes1, .box_solucoes2, .box_solucoes3{
@@ -79,8 +79,8 @@
 }
 .img_solutions_3{
     margin-top: -40px;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
 }
 
 @media (max-width:720px){
@@ -122,10 +122,12 @@
     
     .container-box{
         height:105vh;
+        
+        
     }
 
     .container-solutions{
-    
+        background-color: rgba(0, 0, 0, 0);
         width: 50%;
         height: 150vh;
         margin: 0% auto;
@@ -133,10 +135,13 @@
     
     }
     .box_solucoes1, .box_solucoes2, .box_solucoes3{
-        width: 150px;
-        height: 26vh;
+        width: 160px;
+        height: 30vh;
         margin: 3% auto;
-        }
+        background-color: whitesmoke;
+        border-radius: 10px;
+
+    }
 
     
 }
