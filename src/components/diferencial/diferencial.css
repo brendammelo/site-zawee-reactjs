@@ -12,7 +12,7 @@
 }
 @media  (max-width:900px){
     .section_diferencial{
-        height: 190vh;
+        height: 180vh;
     }
 
     .title_diferencial{
@@ -175,14 +175,14 @@
 
 
 
-.button{
+/*.button{
 
     margin: 30px auto;
     width: 250px;
 }
 
-@media (max-width:650px){
+@media (max-width:575px){
     .button{
-        margin: 55% auto;
+        margin: 35% auto;
     }
-}
+}*/
