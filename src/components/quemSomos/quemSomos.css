@@ -26,11 +26,9 @@
 .icone_quemSomos {
     width:300px;
     height:300px;
-    border:2px solid black; 
 }
 
 .button{
-    background-color: black; 
     width:250px;
     margin: 0% auto;
 
@@ -45,7 +43,6 @@
     box-shadow: 1px 1px 5px grey;
     border-style: none;
     cursor: pointer;
-    border:2px solid black;
 
 }
 
@@ -72,7 +69,6 @@
     .title_quem_somos{
         padding:4% 0%;
         width:200px;
-        border:2px solid black;
         margin: 0% auto;
         font-size: 1.6em;
         color: #585858;
@@ -83,11 +79,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        border:2px solid black;
     
     }
     .button{
-        background-color: blue;
         width:130px;
         margin: 4% auto;
 
@@ -97,7 +91,6 @@
         height: 30px;
         width:130px;
         font-size: 0.8em;
-        border: 2px solid black;
 
     }
     
