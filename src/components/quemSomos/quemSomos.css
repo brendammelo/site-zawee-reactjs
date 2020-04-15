@@ -253,37 +253,20 @@
 
 }
 
-@media (max-width:535px){
 
+
+@media (max-width:650px){
     .button > button{
         height: 40px;
         width: 140px;
         font-size: 1.0em;
-        margin-top: -20%;
+        margin-top:-70%;
 
-    }
-
-}
-
-@media (min-width:534px) and (max-width:615px){
-
-    .button > button{
-        height: 40px;
-        width: 140px;
-        font-size: 1.0em;
         
 
     }
 }
 
-@media (min-width:616px) and (max-width:870px){
-    
-    .button > button{
-        height: 40px;
-        width: 140px;
-        font-size: 1.0em;
 
-    }
-}
 
 
