@@ -108,8 +108,8 @@
 
     .box_diferencial1, .box_diferencial2, .box_diferencial3{
         padding: 20px;
-        width: 150px;
-        height:190px;
+        width: 130px;
+        height:160px;
         margin:2% auto;
         
     }
@@ -156,7 +156,7 @@
 
 
 
-@media(min-width:1281px) {
+@media(min-width:1400px) {
     .img_diferencial1, .img_diferencial2, .img_diferencial3{
 
         width: 180px;
