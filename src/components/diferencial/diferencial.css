@@ -23,6 +23,23 @@
     
 }
 
+.button{
+    width:250px;
+    margin: 0% auto;
+}
+
+.button > button{
+    height: 60px;
+    width: 250px;
+    border-radius: 9px;
+    background-color: #465efe;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 1px 1px 5px grey;
+    border-style: none;
+    cursor: pointer;
+}
+
 .container-diferencial{
 
     width: 95%;
@@ -81,7 +98,7 @@
     .title_diferencial{
         width:250px;
         font-size: 1.8em;
-        margin: 4% auto;
+        margin: 5% auto;
     }
     
     .texto_diferencial1, .texto_diferencial2, .texto_diferencial3{
@@ -121,7 +138,58 @@
 
 
 
+@media(min-width:1281px) {
+    .img_diferencial1, .img_diferencial2, .img_diferencial3{
 
+        width: 180px;
+        height: 180px;
+    
+    }
+    .title_diferencial{
+        width:260px;
+        font-size: 1.9em;
+        margin:auto;
+        margin-top: 30px;
+    }
+    
+    .texto_diferencial1, .texto_diferencial2, .texto_diferencial3{
+        font-weight: 500;
+        font-size: 25px;    
+    }
+
+    .box_diferencial1, .box_diferencial2, .box_diferencial3{
+        padding: 20px;
+        width: 240px;
+        height:350px;
+        margin:2% auto;
+        
+    }
+    .section_diferencial{
+        
+        height: 100vh;
+    
+    }
+
+    .container_box{
+        height: 100vh;
+        
+    }
+    .container-diferencial{
+
+        width: 95%;
+        height: 100vh;
+        border-radius: 10px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+        
+    }
+    .button{
+            margin-bottom: 300px;
+    }
+}
 
 
 
