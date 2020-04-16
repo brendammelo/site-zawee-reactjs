@@ -16,8 +16,7 @@
 .container-logo{
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
-    margin-left:-10%;
+
 
 }
 
@@ -27,6 +26,7 @@
     font-size: 1.3em;
     color: #000000;
     margin: 0px auto;
+
     
 }
 
@@ -81,10 +81,11 @@
 }
 
 .final-footer{
-    margin-top: -3%;
+    margin:-3% auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width:200px;
 }
 
 .container-number{
@@ -93,12 +94,15 @@
     display:flex;
     flex-direction:column;
     width:40%;
+    height: 50%;
+
 }
 
 .phone{
     display: flex;
     flex-direction: row;
     width:200px;
+
 }
 
 .address{
@@ -110,40 +114,49 @@
     width:250px;
 }
 
-@media (max-width:650px){
-    .img_zawee{
-        width:110px;
-        height:50px;
+@media (max-width:720px){
+    .footer {
+        height: 50vh;
+        width: 100%;
+        background-color: whitesmoke;
     }
+
+    .img_zawee{
+        width:150px;
+        height:70px;
+    }
+    .container-footer{
+    
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
+
     .container-logo{
-        height:15vh;
-        margin:0px 10%;
+    align-items: center;
+    height:60%;
+    width:50%;
+    margin:0% auto;
     }
 
     .container-number{
-        flex-direction: column;
-        margin-top:4%;
-        height: 10vh;
-    }
-
-    p{
-        font-size:10px;
-    }
-
-    .container-footer{
-        height: 15vh;
-    }
-    .footer{
-        height: 18vh;
-    }
-    .final-footer{
-        margin-top: -3%;
-    }
-
+        margin: 0% auto;
+        width:50%;
+        height: 50%;
+        align-items: center;
     
+    }
+
+    .phone{
+        width:140px;
+    
+    }
 }
 
-@media(min-width:1281px){
+
+@media(min-width:1400px){
     .img_zawee{
         width:260px;
         height:100px;
@@ -184,6 +197,7 @@
     .footer{
         height: 18vh;
     }
+
     .final-footer{
         
         margin-bottom: 0;
