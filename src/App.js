@@ -12,7 +12,7 @@ const App = () => (
     <HeaderComponent />
     <QuemSomos />
     <SolutionsComponent />
-    < Diferencial />
+    <Diferencial />
     <Form />
     
   </div>
