@@ -82,13 +82,13 @@
         align-items: center;
     
     }
-    .button{
+    .button-quem{
         width:130px;
         margin: 4% auto;
 
     }
 
-    .button > button{
+    .button-quem > button{
         height: 30px;
         width:130px;
         font-size: 0.8em;
