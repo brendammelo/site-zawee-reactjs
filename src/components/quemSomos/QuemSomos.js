@@ -27,7 +27,7 @@ const QuemSomos = () => {
                 offset={1}
                 duration={550}
             >
-            <div className="button">
+            <div className="button-quem">
                 
                 <button>Contate-nos</button>
                 
