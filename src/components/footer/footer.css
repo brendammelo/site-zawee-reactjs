@@ -143,3 +143,50 @@
     
 }
 
+@media(min-width:1281px){
+    .img_zawee{
+        width:260px;
+        height:100px;
+    }
+    .container-logo{
+        height:15vh;
+        margin:0px 10%;
+    }
+
+    .container-number{
+        flex-direction: column;
+        
+        height: 10vh;
+    }
+
+    .phone > p {
+        margin: 0;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        font-size: 18px;
+    }
+    
+    .address > p {
+        margin: 0;
+        margin-left: 5px;
+        margin-bottom: 5%;
+        font-size: 18px;
+        
+    }
+
+    .address{
+        margin-top: 1%;
+    }
+
+    .container-footer{
+        height: 15vh;
+    }
+    .footer{
+        height: 18vh;
+    }
+    .final-footer{
+        
+        margin-bottom: 0;
+        margin-top: -1%;
+    }
+}
